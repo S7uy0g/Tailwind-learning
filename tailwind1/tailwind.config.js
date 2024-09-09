@@ -5,6 +5,20 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
+    },
+    spacing: {
+      '1': '80px',
+      '2': '120px',
+      '3': '160px',
+      '4': '240px',
+      '5': '320px',
+      '6': '480px',
+    },
     extend: {
       colors: {
         transparent: 'transparent',

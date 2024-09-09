@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer  utilities {
+    html{
+        @apply bg-slate-300 
+    }
+    .custom{
+        @apply bg-white text-5xl text-red-950
+    }
+}
