@@ -20,6 +20,9 @@ export default {
       '6': '480px',
     },
     extend: {
+      fontSize: {
+        'custom': '2rem'
+      },
       colors: {
         transparent: 'transparent',
         current: 'currentColor',

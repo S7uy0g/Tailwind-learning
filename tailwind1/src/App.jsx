@@ -32,6 +32,16 @@ function App() {
     <h1 className='custom'>
       Hello World
     </h1>
+    {/*Typography*/}
+    <div>
+      <h1 className='text-custom font-medium'>Heading 1</h1>
+      <h1 className='text-xl'>Heading 2</h1>
+      <h1 className='text-custom hover:font-serif'>Heading 3</h1>
+      <p className='italic md:not-italic'>This is a paragraph1</p>
+      <p className='text-center underline decoration-wavy'>This is a paragraph2</p>
+      <p>This is a paragraph3</p>
+      <p className='note'>This is a note</p>
+    </div>
     </>
   )
 }
