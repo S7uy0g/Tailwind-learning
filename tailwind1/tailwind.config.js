@@ -20,6 +20,9 @@ export default {
       '6': '480px',
     },
     extend: {
+      margin:{
+        '1':'2px',
+      },
       fontSize: {
         'custom': '2rem'
       },

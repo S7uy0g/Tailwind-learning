@@ -42,6 +42,21 @@ function App() {
       <p>This is a paragraph3</p>
       <p className='note'>This is a note</p>
     </div>
+    {/*Spaces and sizes*/}
+    <div>
+      <div className='w-2 h-2 bg-slate-400 opacity-20'></div>
+      <h1 className='-mt-1 bg-slate-300'>Hello</h1>
+      <h1 className='pt-1 bg-gray-600 font-bold'>Hello World</h1>
+      <div className='flex space-x-4'>
+        <div className='w-1/2 h-2 bg-red-400 '></div>
+        <div className='w-1/2 h-2 bg-blue-400'></div>
+      </div>
+      <div class="flex flex-col space-y-1 mt-1">
+        <div className='bg-red-400'>01</div>
+        <div className='bg-red-400'>02</div>
+        <div className='bg-red-400'>03</div>
+      </div>
+    </div>
     </>
   )
 }
