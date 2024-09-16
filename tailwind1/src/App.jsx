@@ -57,6 +57,23 @@ function App() {
         <div className='bg-red-400'>03</div>
       </div>
     </div>
+    {/*Flex*/}
+    <div>
+      <div className='bg-red-400 h-1 flex justify-around items-center w-full'>
+        <div>Home</div>
+        <div>Contact</div>
+        <div>Title</div>
+      </div>
+      <div className='flex relative'>
+        <div className='bg-blue-400 h-6 absolute flex flex-col self-center justify-around'>
+          <div>button</div>
+          <div>button</div>
+          <div>button</div>
+          <div>button</div>
+        </div>
+        <div className='bg-green-400 h-screen w-full flex justify-center items-center'>Content</div>
+      </div>
+    </div>
     </>
   )
 }
