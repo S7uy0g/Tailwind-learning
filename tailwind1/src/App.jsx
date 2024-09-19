@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     {/*basic tailwind including colors*/}
-    <h1 className="text-green-600">
+    {/* <h1 className="text-green-600">
       Hello world!
     </h1>
     <h1 className="bg-yellow-600">
@@ -21,9 +21,9 @@ function App() {
     </h1>
     <h1 className="bg-skin text-red-500 border-4 border-zinc-800">
       Hello World!
-    </h1>
+    </h1> */}
     {/*media customization*/}
-    <h1 className="sm:text-3xl md:bg-slate-400 lg:text-4xl">
+    {/* <h1 className="sm:text-3xl md:bg-slate-400 lg:text-4xl">
       Hello World!
     </h1>
     <h1 className="sm:bg-slate-100 md:bg-slate-200 lg:bg-slate-300 sm:ml-1 md:ml-3 lg:mt-1">
@@ -31,9 +31,9 @@ function App() {
     </h1>
     <h1 className='custom'>
       Hello World
-    </h1>
+    </h1> */}
     {/*Typography*/}
-    <div>
+    {/* <div>
       <h1 className='text-custom font-medium'>Heading 1</h1>
       <h1 className='text-xl'>Heading 2</h1>
       <h1 className='text-custom hover:font-serif'>Heading 3</h1>
@@ -41,9 +41,9 @@ function App() {
       <p className='text-center underline decoration-wavy'>This is a paragraph2</p>
       <p>This is a paragraph3</p>
       <p className='note'>This is a note</p>
-    </div>
+    </div> */}
     {/*Spaces and sizes*/}
-    <div>
+    {/* <div>
       <div className='w-2 h-2 bg-slate-400 opacity-20'></div>
       <h1 className='-mt-1 bg-slate-300'>Hello</h1>
       <h1 className='pt-1 bg-gray-600 font-bold'>Hello World</h1>
@@ -56,9 +56,9 @@ function App() {
         <div className='bg-red-400'>02</div>
         <div className='bg-red-400'>03</div>
       </div>
-    </div>
+    </div> */}
     {/*Flex*/}
-    <div>
+    {/* <div>
       <div className='bg-red-400 h-1 flex justify-around items-center w-full'>
         <div>Home</div>
         <div>Contact</div>
@@ -73,6 +73,29 @@ function App() {
         </div>
         <div className='bg-green-400 h-screen w-full flex justify-center items-center'>Content</div>
       </div>
+    </div> */}
+    {/*Grid*/}
+    <div>
+      <div className='grid lg:grid-cols-4 gap-[10px] md:grid-cols-3 sm:grid-cols-2'>
+        <div className='bg-sky-400 rounded-lg col-span-4'>1</div>
+        <div className='bg-sky-400 rounded-lg col-start-2 col-end-4'>2</div>
+        <div className='bg-sky-400 rounded-lg col-span-2'>3</div>
+        <div className='bg-sky-400 rounded-lg col-span-2'>4</div>
+        <div className='bg-sky-400 rounded-lg col-start-2'>5</div>
+        <div className='bg-sky-400 rounded-lg'>6</div>
+        <div className='bg-sky-400 rounded-lg col-span-4'>7</div>
+      </div>
+    </div>
+    <div className="grid grid-rows-4 grid-flow-col">
+      <div className='hover:col-span-2'>01</div>
+      <div>02</div>
+      <div>02</div>
+      <div>02</div>
+      <div>02</div>
+      <div>02</div>
+      <div>02</div>
+      <div>02</div>
+      <div>09</div>
     </div>
     </>
   )
