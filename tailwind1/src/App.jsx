@@ -98,7 +98,7 @@ function App() {
       <div>09</div>
     </div> */}
     {/*Layputs*/}
-    <div class="container mx-auto bg-slate-600">
+    {/* <div class="container mx-auto bg-slate-600">
       <p>Hello</p>
       <p>Hello</p>
       <p>Hello</p>
@@ -113,35 +113,53 @@ function App() {
       <img src="https://imgs.search.brave.com/XKUD749tjOvSP2maFZkPmTckY7mAfnglBg7J6YgWEgg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aXN0b2NrcGhvdG8u/Y29tL3Jlc291cmNl/cy9pbWFnZXMvSG9t/ZVBhZ2UvRm91clBh/Y2svQzItUGhvdG9z/LWlTdG9jay0xMzU2/MTk3Njk1LmpwZw" alt="" srcset="" />
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ullam reprehenderit vel excepturi, eveniet eius minima assumenda, dolorem necessitatibus, adipisci architecto quibusdam voluptates quos dignissimos similique praesentium! Eveniet, architecto sequi?</p>
     </div>
-    <div class="table w-full ...">
-      <div class="table-header-group ...">
+    <div class="table w-full ">
+      <div class="table-header-group ">
         <div class="table-row">
-          <div class="table-cell text-left ...">Song</div>
-          <div class="table-cell text-left ...">Artist</div>
-          <div class="table-cell text-left ...">Year</div>
+          <div class="table-cell text-left ">Song</div>
+          <div class="table-cell text-left ">Artist</div>
+          <div class="table-cell text-left ">Year</div>
         </div>
       </div>
       <div class="table-row-group">
         <div class="table-row">
-          <div class="table-cell ...">The Sliding Mr. Bones (Next Stop, Pottersville)</div>
-          <div class="table-cell ...">Malcolm Lockyer</div>
-          <div class="table-cell ...">1961</div>
+          <div class="table-cell ">The Sliding Mr. Bones (Next Stop, Pottersville)</div>
+          <div class="table-cell ">Malcolm Lockyer</div>
+          <div class="table-cell ">1961</div>
         </div>
         <div class="table-row">
-          <div class="table-cell ...">Witchy Woman</div>
-          <div class="table-cell ...">The Eagles</div>
-          <div class="table-cell ...">1972</div>
+          <div class="table-cell ">Witchy Woman</div>
+          <div class="table-cell ">The Eagles</div>
+          <div class="table-cell ">1972</div>
         </div>
         <div class="table-row">
-          <div class="table-cell ...">Shining Star</div>
-          <div class="table-cell ...">Earth, Wind, and Fire</div>
-          <div class="table-cell ...">1975</div>
+          <div class="table-cell ">Shining Star</div>
+          <div class="table-cell ">Earth, Wind, and Fire</div>
+          <div class="table-cell ">1975</div>
         </div>
       </div>
     </div>
     <div className="relative w-[150px] h-[150px] m-1 bg-slate-600">
       <div className="absolute bottom-0 left-0 bg-red-300 w-[125px] h-[125px]"></div>
+    </div> */}
+    {/*Borders*/}
+    <div className="w-full border-8 border-sky-500">Hello</div>
+    <div className="divide-y divide-slate-700 ">
+      <div>01</div>
+      <div>02</div>
+      <div>03</div>
     </div>
+    <div className="border-solid border-2 border-sky-500 ">Button</div>
+    <div className="border-dashed border-2 border-sky-500 ">Button</div>
+    <div className="border-dotted border-2 border-sky-500 ">Button</div>
+    <div className="border-double border-4 border-sky-500 ">Button</div>
+    <div className='flex'>
+      <div className="rounded w-2 h-2 bg-slate-600"></div>
+      <div className="rounded-md w-2 h-2 bg-slate-600"></div>
+      <div className="rounded-lg w-2 h-2 bg-slate-600"></div>
+      <div className="rounded-full w-2 h-2 bg-slate-600"></div>
+    </div>
+    <button className='rounded-lg bg-blue-500 p-[10px] mt-1 text-white hover:scale-110 duration-300'><strong>send</strong></button>
     </>
   )
 }
