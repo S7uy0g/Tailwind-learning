@@ -51,7 +51,7 @@ function App() {
         <div className='w-1/2 h-2 bg-red-400 '></div>
         <div className='w-1/2 h-2 bg-blue-400'></div>
       </div>
-      <div class="flex flex-col space-y-1 mt-1">
+      <div className="flex flex-col space-y-1 mt-1">
         <div className='bg-red-400'>01</div>
         <div className='bg-red-400'>02</div>
         <div className='bg-red-400'>03</div>
@@ -98,7 +98,7 @@ function App() {
       <div>09</div>
     </div> */}
     {/*Layputs*/}
-    {/* <div class="container mx-auto bg-slate-600">
+    {/* <div className="container mx-auto bg-slate-600">
       <p>Hello</p>
       <p>Hello</p>
       <p>Hello</p>
@@ -113,29 +113,29 @@ function App() {
       <img src="https://imgs.search.brave.com/XKUD749tjOvSP2maFZkPmTckY7mAfnglBg7J6YgWEgg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aXN0b2NrcGhvdG8u/Y29tL3Jlc291cmNl/cy9pbWFnZXMvSG9t/ZVBhZ2UvRm91clBh/Y2svQzItUGhvdG9z/LWlTdG9jay0xMzU2/MTk3Njk1LmpwZw" alt="" srcset="" />
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi ullam reprehenderit vel excepturi, eveniet eius minima assumenda, dolorem necessitatibus, adipisci architecto quibusdam voluptates quos dignissimos similique praesentium! Eveniet, architecto sequi?</p>
     </div>
-    <div class="table w-full ">
-      <div class="table-header-group ">
-        <div class="table-row">
-          <div class="table-cell text-left ">Song</div>
-          <div class="table-cell text-left ">Artist</div>
-          <div class="table-cell text-left ">Year</div>
+    <div className="table w-full ">
+      <div className="table-header-group ">
+        <div className="table-row">
+          <div className="table-cell text-left ">Song</div>
+          <div className="table-cell text-left ">Artist</div>
+          <div className="table-cell text-left ">Year</div>
         </div>
       </div>
-      <div class="table-row-group">
-        <div class="table-row">
-          <div class="table-cell ">The Sliding Mr. Bones (Next Stop, Pottersville)</div>
-          <div class="table-cell ">Malcolm Lockyer</div>
-          <div class="table-cell ">1961</div>
+      <div className="table-row-group">
+        <div className="table-row">
+          <div className="table-cell ">The Sliding Mr. Bones (Next Stop, Pottersville)</div>
+          <div className="table-cell ">Malcolm Lockyer</div>
+          <div className="table-cell ">1961</div>
         </div>
-        <div class="table-row">
-          <div class="table-cell ">Witchy Woman</div>
-          <div class="table-cell ">The Eagles</div>
-          <div class="table-cell ">1972</div>
+        <div className="table-row">
+          <div className="table-cell ">Witchy Woman</div>
+          <div className="table-cell ">The Eagles</div>
+          <div className="table-cell ">1972</div>
         </div>
-        <div class="table-row">
-          <div class="table-cell ">Shining Star</div>
-          <div class="table-cell ">Earth, Wind, and Fire</div>
-          <div class="table-cell ">1975</div>
+        <div className="table-row">
+          <div className="table-cell ">Shining Star</div>
+          <div className="table-cell ">Earth, Wind, and Fire</div>
+          <div className="table-cell ">1975</div>
         </div>
       </div>
     </div>
@@ -143,7 +143,7 @@ function App() {
       <div className="absolute bottom-0 left-0 bg-red-300 w-[125px] h-[125px]"></div>
     </div> */}
     {/*Borders*/}
-    <div className="w-full border-8 border-sky-500">Hello</div>
+    {/* <div className="w-full border-8 border-sky-500">Hello</div>
     <div className="divide-y divide-slate-700 ">
       <div>01</div>
       <div>02</div>
@@ -159,7 +159,13 @@ function App() {
       <div className="rounded-lg w-2 h-2 bg-slate-600"></div>
       <div className="rounded-full w-2 h-2 bg-slate-600"></div>
     </div>
-    <button className='rounded-lg bg-blue-500 p-[10px] mt-1 text-white hover:scale-110 duration-300'><strong>send</strong></button>
+    <button className='rounded-lg bg-blue-500 p-[10px] mt-1 text-white hover:scale-110 duration-300'><strong>send</strong></button> */}
+    {/*Effects*/}
+    <div className='flex'>
+      <div className="shadow-2xl shadow-black w-1 h-1 bg-white-600 m-[10px]"></div>
+      <div className="shadow-inner shadow-black w-1 h-1 bg-white-600 m-[10px] cursor-pointer"></div>
+      <button class="bg-cyan-500 shadow-md shadow-cyan-500/50 h-1/2 text-white p-[10px] rounded-md self-center hover:opacity-50 hover:shadow-2xl hover:shadow-black">Subscribe</button>
+    </div>
     </>
   )
 }
