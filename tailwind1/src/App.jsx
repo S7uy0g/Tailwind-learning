@@ -161,11 +161,34 @@ function App() {
     </div>
     <button className='rounded-lg bg-blue-500 p-[10px] mt-1 text-white hover:scale-110 duration-300'><strong>send</strong></button> */}
     {/*Effects*/}
-    <div className='flex'>
+    {/* <div className='flex'>
       <div className="shadow-2xl shadow-black w-1 h-1 bg-white-600 m-[10px]"></div>
       <div className="shadow-inner shadow-black w-1 h-1 bg-white-600 m-[10px] cursor-pointer"></div>
-      <button class="bg-cyan-500 shadow-md shadow-cyan-500/50 h-1/2 text-white p-[10px] rounded-md self-center hover:opacity-50 hover:shadow-2xl hover:shadow-black">Subscribe</button>
+      <button className="bg-cyan-500 shadow-md shadow-cyan-500/50 h-1/2 text-white p-[10px] rounded-md self-center hover:opacity-50 hover:shadow-2xl hover:shadow-black">Subscribe</button>
+    </div> */}
+    {/*Animations*/}
+    <button className="transition ease-in-out  delay-150 bg-blue-500 hover:scale-110 hover:bg-indigo-500 duration-300">
+      Save Changes
+    </button>
+    <button className="transition duration-700 ease-in bg-slate-600 hover:scale-110 m-1 p-[10px] rounded-lg">Button A</button>
+    <button className="transition duration-700 ease-out bg-slate-600 hover:scale-110 m-1 p-[10px] rounded-lg">Button B</button>
+    <button className="transition duration-700 ease-in-out bg-slate-600 hover:scale-110 m-1 p-[10px] rounded-lg">Button C</button>
+    <button type="button" className="bg-indigo-500 flex p-[10px]" disabled>
+      <p class="animate-spin">0</p>
+      <p >Processing...</p>
+    </button>
+    <span class="relative flex w-2 bg-slate-500">
+      <p>Transaction</p>
+      <span className='animate-ping absolute inset-x-0 top-0 rounded-full bg-sky-400 opacity-75'>0</span>
+    </span>
+    <div class="relative inline-block">
+      <button class="bg-blue-500 text-white p-[10px] w-[150px] h-[50px]">
+        Notifications
+      </button>
+      <span class="absolute top-0 right-[0px] transform h-[20px] w-[20px] bg-red-500 rounded-full animate-ping"></span>
     </div>
+
+
     </>
   )
 }
