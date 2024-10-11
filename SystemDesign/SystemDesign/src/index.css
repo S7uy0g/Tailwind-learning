@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  .title{
+    @apply text-4xl font-bold
+  }
+  .subtitle{
+    @apply text-2xl font-semibold
+  }
+  .btn{
+    @apply m-1 p-2 bg-blue-600 text-white w-fit rounded-xl
+  }
+  .btn:hover{
+    @apply opacity-75 transition ease-in-out cursor-pointer
+  }
+}
